@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela FIPE - Consulta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Consulta Tabela FIPE</h1>
+
+        <label for="marca">Marca:</label>
+        <select id="marca">
+            <option value="">Selecione a Marca</option>
+        </select>
+
+        <label for="modelo">Modelo:</label>
+        <select id="modelo">
+            <option value="">Selecione o Modelo</option>
+        </select>
+
+        <label for="ano">Ano:</label>
+        <select id="ano">
+            <option value="">Selecione o Ano</option>
+        </select>
+
+        <button type="button" onclick="consultarValor()">Consultar Valor</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <footer class="rodape-fim">
+        <p>Desenvolvido por Heric Rodrigues</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
